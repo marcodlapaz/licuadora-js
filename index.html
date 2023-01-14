@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <!-- Custom JS -->
+    <script defer src="./js/main.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Licuadora JS</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title">Licuadora JS</h1>
+      <h2 class="subtitle">HTML + CSS + JS</h2>
+
+      <div id="blender" class="blender">
+        <div
+          id="blender-button"
+          class="blender-button"
+          onclick="controlarLicuadora()"
+        ></div>
+      </div>
+
+      <audio
+        id="blender-button-sound"
+        src="./assets/sounds/botonLicuadora.mp3"
+      ></audio>
+
+      <audio
+        id="blender-sound"
+        src="./assets/sounds/licuadora.mp3"
+        loop
+      ></audio>
+    </main>
+  </body>
+</html>
